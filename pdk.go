@@ -1,5 +1,5 @@
 /*
-Package Kong/go-pdk implements Kong's Plugin Development Kit for Go.
+Package Telefonica/go-pdk implements Kong's Plugin Development Kit for Go.
 
 It directly parallels the existing kong PDK for Lua plugins.
 
@@ -16,18 +16,18 @@ For example, to get the client's IP address, you'd use `kong.Client.GetIp()`.
 package pdk
 
 import (
-	"github.com/Kong/go-pdk/client"
-	"github.com/Kong/go-pdk/ctx"
-	"github.com/Kong/go-pdk/ip"
-	"github.com/Kong/go-pdk/log"
-	"github.com/Kong/go-pdk/nginx"
-	"github.com/Kong/go-pdk/node"
-	"github.com/Kong/go-pdk/request"
-	"github.com/Kong/go-pdk/response"
-	"github.com/Kong/go-pdk/router"
-	"github.com/Kong/go-pdk/service"
-	service_request "github.com/Kong/go-pdk/service/request"
-	service_response "github.com/Kong/go-pdk/service/response"
+	"github.com/Telefonica/go-pdk/client"
+	"github.com/Telefonica/go-pdk/ctx"
+	"github.com/Telefonica/go-pdk/ip"
+	"github.com/Telefonica/go-pdk/log"
+	"github.com/Telefonica/go-pdk/nginx"
+	"github.com/Telefonica/go-pdk/node"
+	"github.com/Telefonica/go-pdk/request"
+	"github.com/Telefonica/go-pdk/response"
+	"github.com/Telefonica/go-pdk/router"
+	"github.com/Telefonica/go-pdk/service"
+	service_request "github.com/Telefonica/go-pdk/service/request"
+	service_response "github.com/Telefonica/go-pdk/service/response"
 )
 
 // PDK go pdk module

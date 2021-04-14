@@ -3,8 +3,8 @@ package client
 import (
 	"testing"
 
-	"github.com/Kong/go-pdk/bridge"
-	"github.com/Kong/go-pdk/entities"
+	"github.com/Telefonica/go-pdk/bridge"
+	"github.com/Telefonica/go-pdk/entities"
 	"github.com/stretchr/testify/assert"
 )
 

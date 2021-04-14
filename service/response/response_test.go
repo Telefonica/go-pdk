@@ -3,7 +3,7 @@ package response
 import (
 	"testing"
 
-	"github.com/Kong/go-pdk/bridge"
+	"github.com/Telefonica/go-pdk/bridge"
 	"github.com/stretchr/testify/assert"
 )
 

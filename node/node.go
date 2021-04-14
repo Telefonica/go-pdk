@@ -4,7 +4,7 @@ Node-level utilities
 package node
 
 import (
-	"github.com/Kong/go-pdk/bridge"
+	"github.com/Telefonica/go-pdk/bridge"
 )
 
 // Holds this module's functions.  Accessible as `kong.Node`

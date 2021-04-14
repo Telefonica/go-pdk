@@ -9,8 +9,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/Kong/go-pdk/bridge"
-	"github.com/Kong/go-pdk/entities"
+	"github.com/Telefonica/go-pdk/bridge"
+	"github.com/Telefonica/go-pdk/entities"
 )
 
 // Holds this module's functions.  Accessible as `kong.Client`.
